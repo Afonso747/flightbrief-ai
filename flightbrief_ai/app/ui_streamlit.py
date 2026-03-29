@@ -5,7 +5,7 @@ from pathlib import Path
 
 import streamlit as st
 
-from core.engine import FlightBriefEngine
+from flightbrief_ai.core.engine import FlightBriefEngine
 from core.pdf_annotator import PDFAnnotator
 from core.summary_pdf import ThreatSummaryPDF
 
