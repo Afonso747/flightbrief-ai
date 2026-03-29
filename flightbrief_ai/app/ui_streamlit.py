@@ -6,8 +6,8 @@ from pathlib import Path
 import streamlit as st
 
 from flightbrief_ai.core.engine import FlightBriefEngine
-from core.pdf_annotator import PDFAnnotator
-from core.summary_pdf import ThreatSummaryPDF
+from flightbrief_ai.core.pdf_annotator import PDFAnnotator
+from flightbrief_ai.core.summary_pdf import ThreatSummaryPDF
 
 
 def run_app() -> None:
